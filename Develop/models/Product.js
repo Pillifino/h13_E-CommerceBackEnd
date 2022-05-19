@@ -30,8 +30,8 @@ Product.init(
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      defaultValue: 10,
       validate: {
-        min: 10, //not sure if this is setting default to 10 
         isNumeric: true,  // will only allow numbers
       }
     },
@@ -43,7 +43,7 @@ Product.init(
       }
     }
   },
-  {
+  { 
     sequelize,
     timestamps: false,
     freezeTableName: true,

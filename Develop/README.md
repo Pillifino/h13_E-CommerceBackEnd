@@ -107,7 +107,7 @@ Your database should contain the following four models, including the requiremen
   
     * Doesn't allow null values.
   
-    * Set a default value of `10`.
+    * Set a default value of `10`. (Might be a hook)
   
     * Validates that the value is numeric.
 
