@@ -42,7 +42,7 @@ router.post('/', async (req, res) => {
     // Since the model will create a unique UUID value by default, 
     // we just need to provide the `id` of the Category that will own this Product
     const locationData = await Category.create({
-      category_id: req.body.category_id, // Foreigh Key in Product model that connects to Category model's id
+      category_name: req.body.category_name, // Foreigh Key in Product model that connects to Category model's id
     });
     res.status(200).json(locationData);
   } catch (err) {
