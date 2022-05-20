@@ -188,4 +188,4 @@ Create the code needed in `server.js` to sync the Sequelize models to the MySQL 
 [Sequelize documentation on validations and constraints](https://sequelize.org/master/manual/validations-and-constraints.html)
 
 ## Showcase Video
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R5NlXv3OmSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
